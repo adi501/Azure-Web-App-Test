@@ -14,6 +14,7 @@ namespace Azure_Web_App_Test1.Pages
 
         public void OnGet()
         {
+            throw new Exception("Testing Insights");
         }
     }
 }

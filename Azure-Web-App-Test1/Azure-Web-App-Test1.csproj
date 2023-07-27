@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Azure_Web_App_Test1</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/cfd89d5c-63b6-499d-89c8-8dd071dd36a8/resourceGroups/az-webapp-adi-test1_group/providers/microsoft.insights/components/az-webapp-adi-git-test1</ApplicationInsightsResourceId>
+    <UserSecretsId>242a5a81-a41c-460d-9afa-44f5e9d604bd</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
